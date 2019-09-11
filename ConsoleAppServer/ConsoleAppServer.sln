@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppServer", "ConsoleAppServer\ConsoleAppServer.csproj", "{0AB4FC9A-531E-4E71-B7EE-C5FA4EC1F274}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppServer", "ConsoleAppServer\ConsoleAppServer.csproj", "{0AB4FC9A-531E-4E71-B7EE-C5FA4EC1F274}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppTcpClient", "ConsoleAppTcpClient\ConsoleAppTcpClient.csproj", "{56A3A344-AFF9-4D19-AC38-664328636CD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppTcpClient", "ConsoleAppTcpClient\ConsoleAppTcpClient.csproj", "{56A3A344-AFF9-4D19-AC38-664328636CD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EchoServerConcurrent", "EchoServerConcurrent\EchoServerConcurrent.csproj", "{6DF607D6-F0D7-47F3-AE95-D1655435622C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathDateServer", "MathDateServer\MathDateServer.csproj", "{95120ECF-6F0E-4D2C-B3F7-B95E67B9A71F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathDateClient", "MathDateClient\MathDateClient.csproj", "{DC59F7D6-D112-4242-A559-6979A2743C36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{56A3A344-AFF9-4D19-AC38-664328636CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56A3A344-AFF9-4D19-AC38-664328636CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56A3A344-AFF9-4D19-AC38-664328636CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF607D6-F0D7-47F3-AE95-D1655435622C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF607D6-F0D7-47F3-AE95-D1655435622C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF607D6-F0D7-47F3-AE95-D1655435622C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF607D6-F0D7-47F3-AE95-D1655435622C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95120ECF-6F0E-4D2C-B3F7-B95E67B9A71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95120ECF-6F0E-4D2C-B3F7-B95E67B9A71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95120ECF-6F0E-4D2C-B3F7-B95E67B9A71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95120ECF-6F0E-4D2C-B3F7-B95E67B9A71F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC59F7D6-D112-4242-A559-6979A2743C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC59F7D6-D112-4242-A559-6979A2743C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC59F7D6-D112-4242-A559-6979A2743C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC59F7D6-D112-4242-A559-6979A2743C36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
